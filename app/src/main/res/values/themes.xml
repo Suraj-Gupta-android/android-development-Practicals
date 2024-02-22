@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" >
+<!--        <item name="colorPrimary">#ED0909</item>-->
+<!--        <item name="colorPrimaryDark">#FFC107</item>-->
+<!--        <item name="colorAccent">#D5EA0C</item>-->
+
+    </style>
+
+
+    <style name="customTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#ED0909</item>
+        <item name="colorPrimaryDark">#FFC107</item>
+        <item name="colorAccent">#D5EA0C</item>
+
+
+    </style>
+    <style name="customStyleTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimaryDark">#585454</item>
+        <item name="colorPrimary">#050505</item>
+        <item name="colorAccent">#DCD7D7</item>
+
+
+    </style>
+
+    <style name="viewStyle" >
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#D0820F</item>
+
+    </style>
+
+
+
+    <style name="myThemes" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+    <item name="colorPrimary">#D7AE1C</item>
+    <item name="colorPrimaryDark">#FFC107</item>
+    <item name="colorAccent">#8D090909</item>
+
+    </style>
+
+
+    <style name="MyToolbarThemes" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#44B549</item>
+        <item name="colorPrimaryDark">#08E110</item>
+        <item name="colorAccent">#428244</item>
+
+    </style>
+
+
+
+
+
+
+
+
+</resources>
